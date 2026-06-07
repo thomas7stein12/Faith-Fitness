@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faith Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/7178c88896.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section id="landing">
+    <div class="overlay" onclick="closeMenu()"></div>
+
+    <nav class="nav">
+      <div class="nav_container row">
+        <div class="nav_logo">
+          <img src="/assets/Logo.png" alt="Faith Fitness Logo">
+        </div>
+
+        <div class="nav_links">
+          <a class="nav_link" href="#about">About</a>
+          <a class="nav_link" href="#mission">Mission</a>
+          <a class="nav_link" href="#media">Content</a>
+          <a class="nav_link sign-up" href="#contact">Contact</a>
+        </div>
+
+        <button class="btn_menu" onclick="openMenu()">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="menu">
+          <button class="btn_menu btn_menu-close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div class="menu_links">
+            <a class="menu_link" href="#about" onclick="closeMenu()">About</a>
+            <a class="menu_link" href="#mission" onclick="closeMenu()">Mission</a>
+            <a class="menu_link" href="#media" onclick="closeMenu()">Content</a>
+            <a class="menu_link menu_link-primary" href="#contact" onclick="closeMenu()">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+    <!-- HERO -->
+<section class="hero">
+
+    <div class="hero_overlay"></div>
+
+    <div class="hero_background">
+        <img src="/assets/hero.png" alt="">
+    </div>
+
+    <div class="hero_content row">
+
+        <div class="hero_badge">
+            <i class="fas fa-dumbbell"></i>
+            Faith • Fitness • Discipline
+        </div>
+
+        <h1>
+            Transform Your Body.
+            <span>Strengthen Your Faith.</span>
+        </h1>
+
+        <p>
+            Personalized coaching that helps you build strength,
+            confidence, and consistency while keeping Christ at the
+            center of your journey.
+        </p>
+
+        <div class="hero_buttons">
+            <a href="#contact" class="btn btn_primary">
+                Start Today
+            </a>
+
+            <a href="#media" class="btn btn_outline">
+                Learn More
+            </a>
+        </div>
+
+        <div class="hero_stats">
+
+            <div class="stat">
+                <h3>100+</h3>
+                <span>People Helped</span>
+            </div>
+
+            <div class="stat">
+                <h3>5★</h3>
+                <span>Reviews</span>
+            </div>
+
+            <div class="stat">
+                <h3>24/7</h3>
+                <span>Support</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll_indicator">
+        <span></span>
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+    <div class="row about_row">
+
+        <div class="about_image">
+
+            <div class="about_image-wrapper">
+                <img src="/assets/about.png" alt="">
+            </div>
+
+            <div class="about_experience">
+                <h3>5+</h3>
+                <span>Years Coaching</span>
+            </div>
+
+        </div>
+
+        <div class="about_content">
+
+            <span class="section_tag">
+                OUR MISSION
+            </span>
+
+            <h2>
+                Fitness That Builds
+                <span>More Than Muscle.</span>
+            </h2>
+
+            <p>
+                At Faith Fitness, we believe physical strength and
+                spiritual growth go hand in hand. Our mission is to help
+                individuals create lasting habits that improve their
+                health, confidence, discipline, and relationship with God.
+            </p>
+
+            <p>
+                Through personalized coaching, accountability, and
+                faith-centered encouragement, we help people become the
+                strongest version of themselves—inside and out.
+            </p>
+
+            <div class="about_features">
+
+                <div class="feature">
+                    <i class="fas fa-dumbbell"></i>
+                    <div>
+                        <h4>Personalized Training</h4>
+                        <p>Programs built around your goals.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <i class="fas fa-heart"></i>
+                    <div>
+                        <h4>Faith-Centered Coaching</h4>
+                        <p>Encouragement rooted in biblical principles.</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <h4>Real Results</h4>
+                        <p>Accountability that creates consistency.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#contact" class="about_btn">
+                Start Your Journey
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <section id="mission" class="mission">
+
+    <div class="row">
+
+        <div class="section_header about_content">
+            <span class="section_tag">OUR IMPACT</span>
+
+            <h2>Building Stronger Lives Through Faith & Fitness</h2>
+
+            <p>
+                We believe fitness can be a powerful tool for growth,
+                confidence, community, and spiritual development.
+            </p>
+        </div>
+
+        <div class="mission_grid">
+
+            <div class="mission_card">
+                <div class="mission_icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+
+                <h3>Faith</h3>
+
+                <p>
+                    Encouraging spiritual growth through biblical
+                    principles, mentorship, and positive community.
+                </p>
+            </div>
+
+            <div class="mission_card">
+                <div class="mission_icon">
+                    <i class="fas fa-dumbbell"></i>
+                </div>
+
+                <h3>Fitness</h3>
+
+                <p>
+                    Helping individuals develop healthier lifestyles
+                    through exercise, discipline, and accountability.
+                </p>
+            </div>
+
+            <div class="mission_card">
+                <div class="mission_icon">
+                    <i class="fas fa-users"></i>
+                </div>
+
+                <h3>Community</h3>
+
+                <p>
+                    Creating a welcoming environment where people can
+                    connect, support one another, and grow together.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="impact_stats">
+
+            <div class="impact_stat">
+                <h3>100+</h3>
+                <span>Lives Reached</span>
+            </div>
+
+            <div class="impact_stat">
+                <h3>50+</h3>
+                <span>Community Events</span>
+            </div>
+
+            <div class="impact_stat">
+                <h3>10+</h3>
+                <span>Volunteers</span>
+            </div>
+
+            <div class="impact_stat">
+                <h3>5+</h3>
+                <span>Years Serving</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- GET INVOLVED -->
+
+<section id="get-involved" class="cta_section">
+
+    <div class="cta_overlay"></div>
+
+    <div class="row">
+
+        <div class="cta_content">
+
+            <span class="section_tag light">
+                JOIN THE MOVEMENT
+            </span>
+
+            <h2>
+                Together We Can Impact More Lives
+            </h2>
+
+            <p>
+                Whether you volunteer, attend an event, partner with us,
+                or support our mission, every contribution helps us build
+                stronger bodies, stronger faith, and stronger communities.
+            </p>
+
+            <div class="cta_buttons">
+
+                <a href="#contact" class="cta_btn">
+                    Get Involved
+                </a>
+
+                <a href="#contact" class="cta_btn_outline">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- MEDIA SECTION -->
+
+<section id="media" class="media">
+
+    <div class="row">
+
+        <div class="section_header about_content">
+            <span class="section_tag">LATEST CONTENT</span>
+
+            <h2>Watch, Learn & Grow</h2>
+
+            <p>
+                Explore messages, workouts, community highlights,
+                and faith-centered content from Faith Fitness.
+            </p>
+        </div>
+
+        <div class="media_grid">
+
+            <a href="https://www.youtube.com/watch?v=kR8DxLU6K5c&t=13s"
+               target="_blank"
+               class="video_card">
+
+                <div class="video_thumbnail">
+                    <img src="/assets/video1.png" alt="Video Thumbnail">
+
+                    <div class="play_button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div class="video_info">
+                    <span>Featured Video</span>
+
+                    <h3>
+                        Feel It
+                    </h3>
+
+                    <p>
+                        Faith Fitness Misty Stein
+                    </p>
+                </div>
+
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=kR8DxLU6K5c&t=13s"
+               target="_blank"
+               class="video_card">
+
+                <div class="video_thumbnail">
+                    <img src="/assets/video1.png" alt="Video Thumbnail">
+
+                    <div class="play_button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div class="video_info">
+                    <span>Featured Video</span>
+
+                    <h3>
+                        Feel It
+                    </h3>
+
+                    <p>
+                        Faith Fitness Misty Stein
+                    </p>
+                </div>
+
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=kR8DxLU6K5c&t=13s"
+               target="_blank"
+               class="video_card">
+
+                <div class="video_thumbnail">
+                    <img src="/assets/video1.png" alt="Video Thumbnail">
+
+                    <div class="play_button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <div class="video_info">
+                    <span>Featured Video</span>
+
+                    <h3>
+                        Feel It
+                    </h3>
+
+                    <p>
+                        Faith Fitness Misty Stein
+                    </p>
+                </div>
+
+            </a>
+
+        </div>
+
+        <div class="youtube_cta">
+
+            <a href="https://www.youtube.com/watch?v=kR8DxLU6K5c&t=13s" class="youtube_btn">
+                Visit Our YouTube Channel
+                <i class="fab fa-youtube"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <div class="row">
+
+        <div class="contact_container">
+
+            <div class="contact_content">
+
+                <span class="section_tag">
+                    CONTACT US
+                </span>
+
+                <h2>
+                    Ready to Connect With Faith Fitness?
+                </h2>
+
+                <p>
+                    Whether you have questions, want to get involved,
+                    partner with our mission, or simply learn more,
+                    we'd love to hear from you.
+                </p>
+
+                <div class="contact_methods">
+
+                    <div class="contact_method">
+                        <i class="fas fa-envelope"></i>
+
+                        <div>
+                            <h4>Email</h4>
+                            <span>misty.d.stein@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_method">
+                        <i class="fas fa-phone"></i>
+
+                        <div>
+                            <h4>Phone</h4>
+                            <span>(423) 930-4721</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_method">
+                        <i class="fas fa-location-dot"></i>
+
+                        <div>
+                            <h4>Location</h4>
+                            <span>Anchorage, AK</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="contact_card">
+
+                <h3>
+                    Join the Movement
+                </h3>
+
+                <p>
+                    Take the next step and become part of a community
+                    focused on faith, fitness, and lasting impact.
+                </p>
+
+                <a href="mailto:misty.d.stein@gmail.com"
+                   class="contact_btn">
+                    Send Us a Message
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="row footer_row">
+      <div>
+        <img src="/assets/Logo.png" alt="Logo" class="footer_logo">
+      </div>
+
+      <div class="footer_links">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer_socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <p class="copyright">
+      © 2026 Faith Fitness. All Rights Reserved.
+    </p>
+  </footer>
+</body>
+<footer>
+
+</footer>
+</html>
